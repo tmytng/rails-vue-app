@@ -22,6 +22,12 @@ private
           url: 'https://github.com/t0yohei/rails-vue-app'
         }
       ],
+      inner_links: [
+        {
+          label: '整数リテラル分類表',
+          url: url_for(action: 'index', controller: 'integer_literal_descriptions')
+        }
+      ]
     }
   end
 end
