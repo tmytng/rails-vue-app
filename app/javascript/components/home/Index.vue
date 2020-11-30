@@ -1,7 +1,7 @@
 <template>
 <div>
-<header-view v-bind:title="title" v-bind:description="description"></header-view>
-<contents v-bind:contents="contents"></contents>
+<header-view :title="title" :description="description"></header-view>
+<contents :contents="contents"></contents>
 </div>
 </template>
 

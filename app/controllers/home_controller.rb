@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
 
   def index
-    @title = 'Home#index'
+    @title = 'testpage'
     @description = 'トップページ'
     @contents = get_contents
   end
