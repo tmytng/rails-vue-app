@@ -4,6 +4,7 @@
     <p>{{ description }}</p>
   </div>
 </template>
+
 <script>
 export default {
   props: {
@@ -18,3 +19,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+  .test {
+  border: 1px solid red;
+  }
+</style>
